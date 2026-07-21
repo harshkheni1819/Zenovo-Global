@@ -16,6 +16,23 @@ interface Props {
   }>;
 }
 
+interface JobData {
+  _id: {
+    toString(): string;
+  };
+  title: string;
+  company: string;
+  location: string;
+  employmentType: string;
+  experience: string;
+  salary: string;
+  status: string;
+  description: string;
+  responsibilities: string;
+  requirements: string;
+  skills?: string[];
+}
+
 export default async function CandidateJobDetailsPage({
   params,
 }: Props) {
@@ -29,20 +46,20 @@ export default async function CandidateJobDetailsPage({
     notFound();
   }
 
-  const data: any = job;
+  const data = job as unknown as JobData;
 
   return (
-    <main className="max-w-6xl mx-auto py-10 px-4">
-      <div className="bg-white rounded-3xl shadow-sm border border-gray-200 overflow-hidden">
+    <main className="mx-auto max-w-6xl px-4 py-10">
+      <div className="overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-sm">
         {/* Header */}
-        <div className="p-8 border-b">
-          <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-6">
+        <div className="border-b p-8">
+          <div className="flex flex-col gap-6 md:flex-row md:items-start md:justify-between">
             <div>
               <h1 className="text-4xl font-bold text-slate-900">
                 {data.title}
               </h1>
 
-              <div className="flex flex-wrap gap-5 mt-5 text-gray-600">
+              <div className="mt-5 flex flex-wrap gap-5 text-gray-600">
                 <div className="flex items-center gap-2">
                   <Building2 size={18} />
                   {data.company}
@@ -70,25 +87,23 @@ export default async function CandidateJobDetailsPage({
               </div>
             </div>
 
-            <div>
-              <span className="bg-green-100 text-green-700 px-4 py-2 rounded-full font-medium">
-                {data.status}
-              </span>
-            </div>
+            <span className="rounded-full bg-green-100 px-4 py-2 font-medium text-green-700">
+              {data.status}
+            </span>
           </div>
         </div>
 
         {/* Skills */}
-        <div className="p-8 border-b">
-          <h2 className="text-2xl font-semibold mb-4">
+        <div className="border-b p-8">
+          <h2 className="mb-4 text-2xl font-semibold">
             Required Skills
           </h2>
 
           <div className="flex flex-wrap gap-3">
-            {data.skills?.map((skill: string) => (
+            {data.skills?.map((skill) => (
               <span
                 key={skill}
-                className="bg-blue-100 text-blue-700 px-4 py-2 rounded-full"
+                className="rounded-full bg-blue-100 px-4 py-2 text-blue-700"
               >
                 {skill}
               </span>
@@ -97,49 +112,53 @@ export default async function CandidateJobDetailsPage({
         </div>
 
         {/* Description */}
-        <div className="p-8 border-b">
-          <h2 className="text-2xl font-semibold mb-4">
+        <div className="border-b p-8">
+          <h2 className="mb-4 text-2xl font-semibold">
             Job Description
           </h2>
 
-          <p className="text-gray-600 whitespace-pre-wrap leading-8">
+          <p className="whitespace-pre-wrap leading-8 text-gray-600">
             {data.description}
           </p>
         </div>
 
         {/* Responsibilities */}
-        <div className="p-8 border-b">
-          <h2 className="text-2xl font-semibold mb-4">
+        <div className="border-b p-8">
+          <h2 className="mb-4 text-2xl font-semibold">
             Responsibilities
           </h2>
 
-          <p className="text-gray-600 whitespace-pre-wrap leading-8">
+          <p className="whitespace-pre-wrap leading-8 text-gray-600">
             {data.responsibilities}
           </p>
         </div>
 
         {/* Requirements */}
-        <div className="p-8 border-b">
-          <h2 className="text-2xl font-semibold mb-4">
+        <div className="border-b p-8">
+          <h2 className="mb-4 text-2xl font-semibold">
             Requirements
           </h2>
 
-          <p className="text-gray-600 whitespace-pre-wrap leading-8">
+          <p className="whitespace-pre-wrap leading-8 text-gray-600">
             {data.requirements}
           </p>
         </div>
 
         {/* Footer */}
-        <div className="p-8 flex flex-col md:flex-row gap-4 justify-between items-center">
+        <div className="flex flex-col items-center justify-between gap-4 p-8 md:flex-row">
           <Link
             href="/candidate/jobs"
-            className="px-6 py-3 rounded-xl border border-gray-300 hover:bg-gray-100 transition"
+            className="rounded-xl border border-gray-300 px-6 py-3 transition hover:bg-gray-100"
           >
             ← Back to Jobs
           </Link>
 
-          import ApplyButton from "@/components/jobs/ApplyButton";
-          <ApplyButton jobId={data._id.toString()} />
+          <button
+            type="button"
+            className="rounded-xl bg-blue-600 px-8 py-3 font-semibold text-white transition hover:bg-blue-700"
+          >
+            Apply Now
+          </button>
         </div>
       </div>
     </main>
