@@ -19,7 +19,7 @@ export default function Navbar() {
 
         <Link href="/" onClick={() => setOpen(false)}>
           <h1 className="text-2xl font-bold tracking-tight text-slate-900">
-            Zenovo
+            Xenovo
             <span className="text-blue-600"> Global</span>
           </h1>
         </Link>
