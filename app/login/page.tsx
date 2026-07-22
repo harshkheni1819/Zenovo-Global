@@ -60,7 +60,7 @@ export default function LoginPage() {
 
         <div className="mb-8 text-center">
           <h1 className="text-3xl font-bold">
-            Zenovo <span className="text-blue-600">Global</span>
+            Xenovo <span className="text-blue-600">Global</span>
           </h1>
 
           <p className="mt-2 text-gray-500">

@@ -79,7 +79,7 @@ text-lg
 
 Whether you are building a technology team
 or looking for your next opportunity,
-Zenovo Global helps you move forward.
+Xenovo Global helps you move forward.
 
 </p>
 

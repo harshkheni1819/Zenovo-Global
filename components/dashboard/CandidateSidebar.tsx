@@ -51,7 +51,7 @@ export default function CandidateSidebar() {
     <aside className="w-72 bg-white border-r border-gray-200 min-h-screen">
       <div className="h-20 flex items-center px-8 border-b">
         <h1 className="text-2xl font-bold">
-          Zenovo
+          Xenovo
           <span className="text-blue-600">Global</span>
         </h1>
       </div>

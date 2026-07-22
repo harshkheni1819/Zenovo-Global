@@ -96,7 +96,7 @@ uppercase
 tracking-wide
 ">
 
-Why Zenovo Global
+Why Xenovo Global
 
 </p>
 

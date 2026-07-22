@@ -71,7 +71,7 @@ Technology Teams
 </span>
 
 
-With Zenovo Global
+With Xenovo Global
 
 
 </h1>

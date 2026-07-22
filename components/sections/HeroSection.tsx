@@ -36,7 +36,7 @@ export default function HeroSection() {
             </h1>
 
             <p className="mt-8 max-w-xl text-lg leading-8 text-slate-600">
-              Zenovo Global connects organizations with exceptional technology
+              Xenovo Global connects organizations with exceptional technology
               professionals, helping companies innovate faster and professionals
               discover meaningful career opportunities.
             </p>

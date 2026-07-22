@@ -11,7 +11,7 @@ export default function ServiceCTA() {
         </h2>
 
         <p className="mx-auto mt-5 max-w-2xl text-blue-100">
-          Let Zenovo Global connect you with top talent and world-class
+          Let Xenovo Global connect you with top talent and world-class
           technology solutions.
         </p>
 

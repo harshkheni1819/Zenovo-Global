@@ -133,7 +133,7 @@ text-gray-500
 text-lg
 ">
 
-Zenovo Global partners with organizations
+Xenovo Global partners with organizations
 across multiple industries to deliver
 technology talent solutions.
 

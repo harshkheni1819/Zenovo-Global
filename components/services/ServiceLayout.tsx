@@ -110,7 +110,7 @@ export default function ServiceLayout({
 
             <p className="mt-6 text-lg text-blue-100">
               Whether you're growing your team or exploring your next
-              opportunity, Zenovo Global is ready to help.
+              opportunity, Xenovo Global is ready to help.
             </p>
 
             <button className="mt-10 inline-flex items-center gap-2 rounded-xl bg-white px-8 py-4 font-semibold text-blue-600 transition hover:scale-105">

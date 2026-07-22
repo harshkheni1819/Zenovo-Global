@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Industries | Zenovo Global",
-  description: "Industries served by Zenovo Global.",
+  title: "Industries | Xenovo Global",
+  description: "Industries served by Xenovo Global.",
 };
 
 export default function IndustriesPage() {

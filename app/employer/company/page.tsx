@@ -20,7 +20,7 @@ export default function CompanyPage() {
 
             <div>
               <h1 className="text-3xl font-bold text-gray-900">
-                Zenovo Global
+                Xenovo Global
               </h1>
 
               <p className="mt-2 text-gray-500">
@@ -40,22 +40,22 @@ export default function CompanyPage() {
             <div className="space-y-5">
               <div className="flex items-center gap-3">
                 <Globe className="text-blue-600" />
-                <span>www.zenovoglobal.com</span>
+                <span>www.Xenovoglobal.com</span>
               </div>
 
               <div className="flex items-center gap-3">
                 <Mail className="text-blue-600" />
-                <span>info@zenovoglobal.com</span>
+                <span>Xenovo.global2215@gmail.com</span>
               </div>
 
               <div className="flex items-center gap-3">
                 <Phone className="text-blue-600" />
-                <span>+91 XXXXX XXXXX</span>
+                <span>+1 4843174060</span>
               </div>
 
               <div className="flex items-center gap-3">
                 <MapPin className="text-blue-600" />
-                <span>Ahmedabad, Gujarat, India</span>
+                <span>USA</span>
               </div>
             </div>
           </div>
@@ -100,7 +100,7 @@ export default function CompanyPage() {
           </h2>
 
           <p className="leading-8 text-gray-600">
-            Zenovo Global is a modern AI-powered recruitment platform that
+            Xenovo Global is a modern AI-powered recruitment platform that
             connects talented professionals with leading employers across
             multiple industries. We provide innovative hiring solutions,
             workforce management, and global recruitment services.

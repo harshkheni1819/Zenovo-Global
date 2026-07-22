@@ -4,7 +4,7 @@ export const services = [
     badge: "Technology Teams",
     title: "Build High-Performing Technology Teams",
     description:
-      "Zenovo Global helps organizations connect with highly skilled technology professionals who accelerate innovation and business growth.",
+      "Xenovo Global helps organizations connect with highly skilled technology professionals who accelerate innovation and business growth.",
 
     benefits: [
       "Access experienced technology professionals",

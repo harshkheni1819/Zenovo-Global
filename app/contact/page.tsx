@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact | Zenovo Global",
-  description: "Contact Zenovo Global.",
+  title: "Contact | Xenovo Global",
+  description: "Contact Xenovo Global.",
 };
 
 export default function ContactPage() {
@@ -13,15 +13,15 @@ export default function ContactPage() {
       </h1>
 
       <p className="mt-8 text-lg text-slate-600">
-        Email: support@zenovoglobal.com
+        Email: Xenovo.global2215@gmail.com
       </p>
 
       <p className="mt-2 text-lg text-slate-600">
-        Phone: +91 XXXXX XXXXX
+        Phone: +1 4843174060
       </p>
 
       <p className="mt-2 text-lg text-slate-600">
-        India • United Kingdom • Global
+        United Kingdom • Global
       </p>
     </main>
   );

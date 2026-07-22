@@ -5,7 +5,7 @@ const testimonials = [
     name: "Harsh Patel",
     role: "Software Engineer",
     company: "Google",
-    text: "Zenovo Global helped me land my dream job within two weeks.",
+    text: "Xenovo Global helped me land my dream job within two weeks.",
   },
   {
     name: "Riya Shah",
