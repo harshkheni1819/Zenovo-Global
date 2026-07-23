@@ -10,7 +10,7 @@ const leaders = [
     name: "Hlex Morgan",
     role: "Founder & CEO",
     description:
-      "Driving business growth, strategic partnerships, and global innovation for Zenova Global.",
+      "Driving business growth, strategic partnerships, and global innovation for Xenova Global.",
     icon: Crown,
     gradient: "from-blue-600 to-indigo-700",
   },
