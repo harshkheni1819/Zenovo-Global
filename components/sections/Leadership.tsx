@@ -88,7 +88,7 @@ export default function LeadershipPage() {
                   </p>
 
                   <div className="mt-8 flex items-center gap-2 text-blue-600 hover:text-blue-800">
-                    <Linkedin size={20} />
+                    <ExternalLink size={20}  />
                     <span className="font-medium">LinkedIn</span>
                   </div>
                 </div>
