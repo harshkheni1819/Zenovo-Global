@@ -2,7 +2,7 @@ import {
   Crown,
   BriefcaseBusiness,
   Cpu,
-  Linkedin,
+  ExternalLink,
 } from "lucide-react";
 
 const leaders = [
