@@ -43,7 +43,7 @@ export default function LeadershipPage() {
 
           <h1 className="mt-6 text-5xl font-bold text-slate-900">
             Meet The People Behind
-            <span className="text-blue-600"> Zenova Global</span>
+            <span className="text-blue-600"> Xenova Global</span>
           </h1>
 
           <p className="mx-auto mt-6 max-w-3xl text-lg text-gray-600">
