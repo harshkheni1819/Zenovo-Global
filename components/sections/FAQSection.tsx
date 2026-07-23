@@ -8,7 +8,7 @@ import SectionTitle from "@/components/ui/SectionTitle";
 
 const faqs = [
   {
-    question: "How does Zenovo Global support organizations?",
+    question: "How does Xenova Global support organizations?",
     answer:
       "We help organizations build high-performing technology teams by connecting them with experienced professionals across a wide range of technical domains.",
   },
