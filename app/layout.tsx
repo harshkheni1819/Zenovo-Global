@@ -6,7 +6,7 @@ import Footer from "@/components/layout/Footer";
 import AuthProvider from "@/components/providers/AuthProvider";
 
 export const metadata: Metadata = {
-  title: "Zenovo Global",
+  title: "Xenova Global",
   description: "Technology Workforce Solutions",
 };
 

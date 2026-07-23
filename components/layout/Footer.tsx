@@ -69,7 +69,7 @@ export default function Footer() {
 
           <div className="lg:col-span-2">
             <h2 className="text-3xl font-bold">
-              Zenovo
+              Xenova
               <span className="text-blue-400"> Global</span>
             </h2>
 
@@ -118,7 +118,7 @@ export default function Footer() {
         {/* Bottom */}
 
         <div className="flex flex-col justify-between gap-4 border-t border-slate-700 py-6 text-sm text-gray-400 md:flex-row">
-          <p>© 2026 Zenovo Global. All rights reserved.</p>
+          <p>© 2026 Xenova Global. All rights reserved.</p>
 
           <div className="flex gap-5">
             <Link href="/privacy-policy" className="hover:text-white">
