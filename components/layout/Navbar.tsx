@@ -18,10 +18,10 @@ export default function Navbar() {
         {/* Logo */}
 
         <Link href="/" onClick={() => setOpen(false)}>
-          <h1 className="text-2xl font-bold tracking-tight text-slate-900">
-            Xenova
-            <span className="text-blue-600"> Global</span>
-          </h1>
+          <h1 className="text-2xl font-bold">
+  Xenova
+  <span className="text-blue-600"> Global</span>
+</h1>
         </Link>
 
         {/* Desktop Navigation */}
