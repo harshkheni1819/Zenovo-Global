@@ -7,7 +7,7 @@ import {
 
 const leaders = [
   {
-    name: "Alex Morgan",
+    name: "Hlex Morgan",
     role: "Founder & CEO",
     description:
       "Driving business growth, strategic partnerships, and global innovation for Zenova Global.",
