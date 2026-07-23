@@ -53,12 +53,12 @@ const features = [
   },
 ];
 
-export default function WhyXenovo() {
+export default function WhyXenova() {
   return (
     <section className="bg-slate-50 py-28">
       <Container>
         <SectionTitle
-          badge="Why Xenovo Global"
+          badge="Why Xenova Global"
           title="A Strategic Partner For Modern Organizations"
           subtitle="We help organizations build future-ready technology teams through expertise, innovation, and a people-first approach."
         />

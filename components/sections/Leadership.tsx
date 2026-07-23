@@ -12,7 +12,7 @@ name:"Alex Morgan",
 role:"Founder & CEO",
 image:"/team/person1.jpg",
 description:
-"Building technology partnerships and driving the vision of Xenovo Global."
+"Building technology partnerships and driving the vision of Xenova Global."
 },
 
 {
@@ -79,7 +79,7 @@ text-slate-900
 ">
 
 Meet The People
-Behind Xenovo Global
+Behind Xenova Global
 
 </h2>
 

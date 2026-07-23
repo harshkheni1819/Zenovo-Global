@@ -6,7 +6,7 @@ export default function SavedJobsPage() {
     {
       id: "1",
       title: "Frontend Developer",
-      company: "Xenovo Global",
+      company: "Xenova Global",
       location: "Ahmedabad, India",
       type: "Full Time",
     },

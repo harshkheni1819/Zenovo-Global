@@ -3,7 +3,7 @@ export const testimonials = [
     name: "Michael Carter",
     company: "Technology Director",
     review:
-      "Xenovo Global consistently delivered exceptional technology professionals who integrated seamlessly into our organization.",
+      "Xenova Global consistently delivered exceptional technology professionals who integrated seamlessly into our organization.",
   },
   {
     name: "Jennifer Wilson",

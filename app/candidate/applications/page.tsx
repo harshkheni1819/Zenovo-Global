@@ -7,7 +7,7 @@ export default function CandidateApplicationsPage() {
     {
       id: "1",
       jobTitle: "Frontend Developer",
-      company: "Xenovo Global",
+      company: "Xenova Global",
       location: "Ahmedabad, India",
       status: "Under Review",
       appliedDate: "20 July 2026",

@@ -11,7 +11,7 @@ const testimonials = [
 name:"Michael Anderson",
 role:"CTO, Technology Company",
 text:
-"Xenovo Global helped us connect with exceptional technology professionals and scale our engineering team efficiently."
+"Xenova Global helped us connect with exceptional technology professionals and scale our engineering team efficiently."
 },
 
 
@@ -27,7 +27,7 @@ text:
 name:"David Miller",
 role:"Founder, Growing Startup",
 text:
-"Xenovo became a trusted partner in helping us build a strong technology foundation."
+"Xenova became a trusted partner in helping us build a strong technology foundation."
 }
 
 ];
@@ -115,7 +115,7 @@ text-gray-500
 text-lg
 ">
 
-See how organizations use Xenovo Global
+See how organizations use Xenova Global
 to build stronger technology teams.
 
 </p>

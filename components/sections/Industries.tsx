@@ -133,7 +133,7 @@ text-gray-500
 text-lg
 ">
 
-Xenovo Global partners with organizations
+Xenova Global partners with organizations
 across multiple industries to deliver
 technology talent solutions.
 

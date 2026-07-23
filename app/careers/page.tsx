@@ -2,8 +2,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Careers | Xenovo Global",
-  description: "Explore careers at Xenovo Global.",
+  title: "Careers | Xenova Global",
+  description: "Explore careers at Xenova Global.",
 };
 
 export default function CareersPage() {

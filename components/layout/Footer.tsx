@@ -28,11 +28,7 @@ Resources:[
 ],
 
 
-Professionals:[
-"Find Jobs",
-"Create Profile",
-"Career Resources"
-]
+
 
 };
 
@@ -77,7 +73,7 @@ text-3xl
 font-bold
 ">
 
-Xenovo
+Xenova
 <span className="text-blue-400">
 Global
 </span>
@@ -246,7 +242,7 @@ text-gray-400
 
 <p>
 
-© 2026 Xenovo Global. All rights reserved.
+© 2026 Xenova Global. All rights reserved.
 
 </p>
 

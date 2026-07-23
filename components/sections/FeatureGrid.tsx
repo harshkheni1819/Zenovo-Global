@@ -30,7 +30,7 @@ export default function FeatureGrid() {
     <section className="py-20 bg-white">
       <div className="mx-auto max-w-7xl px-6">
         <h2 className="text-center text-4xl font-bold">
-          Why Choose Xenovo Global
+          Why Choose Xenova Global
         </h2>
 
         <div className="mt-14 grid gap-8 md:grid-cols-2 lg:grid-cols-4">

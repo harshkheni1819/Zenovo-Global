@@ -11,7 +11,7 @@ export default function AboutPage() {
         <Container>
           <div className="max-w-4xl">
             <span className="inline-block rounded-full bg-blue-100 px-4 py-2 text-sm font-semibold text-blue-600">
-              ABOUT Xenovo GLOBAL
+              ABOUT Xenova GLOBAL
             </span>
 
             <h1 className="mt-6 text-5xl font-bold leading-tight text-slate-900 lg:text-7xl">
@@ -21,7 +21,7 @@ export default function AboutPage() {
             </h1>
 
             <p className="mt-8 max-w-2xl text-lg leading-8 text-slate-600">
-              Xenovo Global partners with organizations to build high-performing
+              Xenova Global partners with organizations to build high-performing
               technology teams while helping professionals discover meaningful
               career opportunities across today's most innovative industries.
             </p>
@@ -54,7 +54,7 @@ export default function AboutPage() {
               </h2>
 
               <p className="mt-6 leading-8 text-slate-600">
-                At Xenovo Global, we believe successful organizations are built
+                At Xenova Global, we believe successful organizations are built
                 by exceptional people. Our goal is to help businesses discover
                 talented professionals while creating career opportunities that
                 inspire long-term growth.

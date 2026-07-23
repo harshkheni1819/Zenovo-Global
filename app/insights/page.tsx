@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Insights | Xenovo Global",
-  description: "Latest insights from Xenovo Global.",
+  title: "Insights | Xenova Global",
+  description: "Latest insights from Xenova Global.",
 };
 
 export default function InsightsPage() {

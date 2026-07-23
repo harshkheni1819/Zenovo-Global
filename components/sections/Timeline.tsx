@@ -15,7 +15,7 @@ const timeline = [
   },
   {
     title: "Grow",
-    description: "Build your career with Xenovo Global.",
+    description: "Build your career with Xenova Global.",
   },
 ];
 

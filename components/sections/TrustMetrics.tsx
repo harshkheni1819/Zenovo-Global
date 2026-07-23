@@ -82,7 +82,7 @@ text-gray-500
 text-lg
 ">
 
-Xenovo Global helps companies build
+Xenova Global helps companies build
 high-performing teams through modern
 talent solutions.
 

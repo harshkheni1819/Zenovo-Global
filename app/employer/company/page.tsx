@@ -20,7 +20,7 @@ export default function CompanyPage() {
 
             <div>
               <h1 className="text-3xl font-bold text-gray-900">
-                Xenovo Global
+                Xenova Global
               </h1>
 
               <p className="mt-2 text-gray-500">
@@ -40,12 +40,12 @@ export default function CompanyPage() {
             <div className="space-y-5">
               <div className="flex items-center gap-3">
                 <Globe className="text-blue-600" />
-                <span>www.Xenovoglobal.com</span>
+                <span>www.Xenovaglobal.com</span>
               </div>
 
               <div className="flex items-center gap-3">
                 <Mail className="text-blue-600" />
-                <span>Xenovo.global2215@gmail.com</span>
+                <span>Xenova.global2215@gmail.com</span>
               </div>
 
               <div className="flex items-center gap-3">
@@ -100,7 +100,7 @@ export default function CompanyPage() {
           </h2>
 
           <p className="leading-8 text-gray-600">
-            Xenovo Global is a modern AI-powered recruitment platform that
+            Xenova Global is a modern AI-powered recruitment platform that
             connects talented professionals with leading employers across
             multiple industries. We provide innovative hiring solutions,
             workforce management, and global recruitment services.

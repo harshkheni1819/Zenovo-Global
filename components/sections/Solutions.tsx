@@ -125,7 +125,7 @@ text-gray-500
 ">
 
 From specialized talent discovery to complete
-workforce solutions, Xenovo Global helps
+workforce solutions, Xenova Global helps
 organizations achieve their technology goals.
 
 </p>
