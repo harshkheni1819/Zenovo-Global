@@ -1,250 +1,117 @@
-"use client";
-
-import { FaLinkedin } from "react-icons/fa";
-import { motion } from "framer-motion";
-import Container from "@/components/ui/Container";
-
+import {
+  Crown,
+  BriefcaseBusiness,
+  Cpu,
+  Linkedin,
+} from "lucide-react";
 
 const leaders = [
-
-{
-name:"Alex Morgan",
-role:"Founder & CEO",
-image:"/team/person1.jpg",
-description:
-"Building technology partnerships and driving the vision of Xenova Global."
-},
-
-{
-name:"Emily Carter",
-role:"Chief Operations Officer",
-image:"/team/person2.jpg",
-description:
-"Leading operational excellence and creating scalable solutions."
-},
-
-{
-name:"Daniel Wilson",
-role:"Technology Director",
-image:"/team/person3.jpg",
-description:
-"Driving technology strategy and innovation across organizations."
-}
-
+  {
+    name: "Alex Morgan",
+    role: "Founder & CEO",
+    description:
+      "Driving business growth, strategic partnerships, and global innovation for Zenova Global.",
+    icon: Crown,
+    gradient: "from-blue-600 to-indigo-700",
+  },
+  {
+    name: "Emily Carter",
+    role: "Chief Operations Officer",
+    description:
+      "Leading operations, client success, and ensuring seamless delivery across international projects.",
+    icon: BriefcaseBusiness,
+    gradient: "from-indigo-600 to-slate-800",
+  },
+  {
+    name: "Daniel Wilson",
+    role: "Technology Director",
+    description:
+      "Architecting scalable software solutions and leading engineering excellence.",
+    icon: Cpu,
+    gradient: "from-slate-700 to-blue-700",
+  },
 ];
 
-
-
-export default function Leadership(){
-
-
-return(
-
-<section
-className="
-py-24
-bg-gray-50
-"
->
-
-
-<Container>
-
-
-<div className="
-text-center
-max-w-3xl
-mx-auto
-">
-
-
-<p className="
-text-blue-600
-font-semibold
-uppercase
-tracking-wide
-">
-
-Leadership Team
-
-</p>
-
-
-<h2 className="
-mt-3
-text-4xl
-lg:text-5xl
-font-bold
-text-slate-900
-">
-
-Meet The People
-Behind Xenova Global
-
-</h2>
-
-
-<p className="
-mt-5
-text-gray-500
-text-lg
-">
-
-Experienced professionals dedicated to
-building meaningful technology partnerships.
-
-</p>
-
-
-</div>
-
-
-
-
-
-<div className="
-grid
-md:grid-cols-3
-gap-8
-mt-16
-">
-
-
-{
-leaders.map((leader,index)=>(
-
-
-<motion.div
-
-key={leader.name}
-
-initial={{
-opacity:0,
-y:30
-}}
-
-whileInView={{
-opacity:1,
-y:0
-}}
-
-transition={{
-delay:index*0.1
-}}
-
-viewport={{
-once:true
-}}
-
-className="
-bg-white
-rounded-3xl
-overflow-hidden
-border
-border-gray-100
-hover:shadow-xl
-transition
-"
-
->
-
-
-{/* Image Placeholder */}
-
-<div className="
-h-72
-bg-gray-200
-flex
-items-center
-justify-center
-text-gray-400
-">
-
-Photo
-
-</div>
-
-
-
-
-<div className="
-p-7
-">
-
-
-<h3 className="
-text-xl
-font-bold
-text-slate-900
-">
-
-{leader.name}
-
-</h3>
-
-
-<p className="
-mt-1
-text-blue-600
-font-medium
-">
-
-{leader.role}
-
-</p>
-
-
-
-<p className="
-mt-4
-text-gray-500
-text-sm
-leading-relaxed
-">
-
-{leader.description}
-
-</p>
-
-
-
-<button
-className="
-mt-5
-flex
-items-center
-gap-2
-text-blue-600
-font-semibold
-"
->
-
-<FaLinkedin size={18} />
-
-LinkedIn
-
-</button>
-
-
-</div>
-
-
-</motion.div>
-
-
-))
-
-}
-
-
-</div>
-
-
-</Container>
-
-
-</section>
-
-)
-
+export default function LeadershipPage() {
+  return (
+    <main className="bg-white">
+      <section className="mx-auto max-w-7xl px-6 py-24">
+        <div className="text-center">
+          <span className="rounded-full bg-blue-100 px-4 py-2 text-sm font-semibold uppercase tracking-widest text-blue-700">
+            Leadership Team
+          </span>
+
+          <h1 className="mt-6 text-5xl font-bold text-slate-900">
+            Meet The People Behind
+            <span className="text-blue-600"> Zenova Global</span>
+          </h1>
+
+          <p className="mx-auto mt-6 max-w-3xl text-lg text-gray-600">
+            Experienced professionals dedicated to building meaningful
+            technology partnerships and delivering world-class digital
+            transformation solutions.
+          </p>
+        </div>
+
+        <div className="mt-20 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+          {leaders.map((leader) => {
+            const Icon = leader.icon;
+
+            return (
+              <div
+                key={leader.name}
+                className="overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"
+              >
+                {/* Header */}
+
+                <div
+                  className={`flex h-56 items-center justify-center bg-gradient-to-br ${leader.gradient}`}
+                >
+                  <div className="flex h-28 w-28 items-center justify-center rounded-full border border-white/20 bg-white/10 backdrop-blur-md">
+                    <Icon className="h-14 w-14 text-white" />
+                  </div>
+                </div>
+
+                {/* Content */}
+
+                <div className="p-8">
+                  <h2 className="text-2xl font-bold text-slate-900">
+                    {leader.name}
+                  </h2>
+
+                  <p className="mt-2 font-semibold text-blue-600">
+                    {leader.role}
+                  </p>
+
+                  <p className="mt-5 leading-7 text-gray-600">
+                    {leader.description}
+                  </p>
+
+                  <div className="mt-8 flex items-center gap-2 text-blue-600 hover:text-blue-800">
+                    <Linkedin size={20} />
+                    <span className="font-medium">LinkedIn</span>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+
+        {/* Bottom Section */}
+
+        <div className="mt-24 rounded-3xl bg-gradient-to-r from-slate-900 via-blue-900 to-slate-900 px-10 py-16 text-center text-white">
+          <h2 className="text-4xl font-bold">
+            Leadership Built on Trust & Innovation
+          </h2>
+
+          <p className="mx-auto mt-6 max-w-4xl text-lg text-slate-300">
+            Our leadership team combines decades of expertise in technology,
+            recruitment, and digital transformation to help organizations build
+            exceptional teams and deliver innovative business solutions
+            worldwide.
+          </p>
+        </div>
+      </section>
+    </main>
+  );
 }
