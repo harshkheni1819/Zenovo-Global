@@ -10,7 +10,7 @@ const leaders = [
 {
 name:"Alex Morgan",
 role:"Founder & CEO",
-image:"/team/person1.jpg",
+image:"/team/person1.png",
 description:
 "Building technology partnerships and driving the vision of Xenova Global."
 },
@@ -18,7 +18,7 @@ description:
 {
 name:"Emily Carter",
 role:"Chief Operations Officer",
-image:"/team/person2.jpg",
+image:"/team/person1.png",
 description:
 "Leading operational excellence and creating scalable solutions."
 },
@@ -26,7 +26,7 @@ description:
 {
 name:"Daniel Wilson",
 role:"Technology Director",
-image:"/team/person3.jpg",
+image:"/team/person1.png",
 description:
 "Driving technology strategy and innovation across organizations."
 }
