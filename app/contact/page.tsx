@@ -13,7 +13,7 @@ export default function ContactPage() {
       </h1>
 
       <p className="mt-8 text-lg text-slate-600">
-        Email: Xenova.global2251@gmail.com
+        Email: Xenova.global22511@gmail.com
       </p>
 
       <p className="mt-2 text-lg text-slate-600">
